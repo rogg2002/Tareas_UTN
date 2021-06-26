@@ -1,0 +1,41 @@
+body {
+  background-color: aqua;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+
+
+/* doy estilo a los textos */
+.texto1 {
+  color: white;
+  background-color: rgb(92, 103, 122);
+}
+.texto2{
+  color: chocolate;
+}
+
+/* estilos en ventana principal */
+.caja1{
+  margin: 0 auto;
+  display: inline-block;
+  border: black solid 2px;
+  border-radius: 5px;
+  background-color: burlywood;
+  width: 59%;
+  height: 300px;
+  text-align: center;
+}
+
+.caja2{
+  border: black solid 2px;
+  border-radius: 5px;
+  background-color: darkorange;
+  width: 40%;
+  height: 300px;
+  float: right;
+}
